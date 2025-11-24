@@ -1,0 +1,49 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables files (keep secrets out of git)
+.env
+.env.*
+
+# Chroma vector DB persisted directory
+chroma/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+
+# Type checkers and coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+*.pyc
+.env
